@@ -1,0 +1,9 @@
+{
+	SubShader
+	{	
+		${VFXInclude("../../Assets/VFXExtra/OutputBuffer/VFXBufferHeader.template")}
+		${VFXInclude("../../Assets/VFXExtra/OutputBuffer/VFXBufferPassSelection.template")}
+		${VFXInclude("../../Assets/VFXExtra/OutputBuffer/VFXBufferPassForward.template")}
+		${VFXInclude("../../Assets/VFXExtra/OutputBuffer/VFXBufferPassShadowCaster.template"),USE_CAST_SHADOWS_PASS}
+	}
+}
